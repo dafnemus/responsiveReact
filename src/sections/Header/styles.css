@@ -1,0 +1,10 @@
+#header {
+  height: 80px;
+  background-color: #0f3d48;
+}
+
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+  #header {
+    height: 60px;
+  }
+}

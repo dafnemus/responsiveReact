@@ -1,9 +1,10 @@
 import "./App.css";
+import Header from "./sections/Header";
 
 function App() {
   return (
     <main id="content">
-      <h1>Hi world</h1>
+      <Header />
     </main>
   );
 }

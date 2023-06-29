@@ -6,3 +6,19 @@
   background-color: #ff0;
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 461px) and (max-width: 768px) {
+  #content {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #content {
+    width: 80%;
+    height: 660px;
+    background-color: #ff0;
+    margin: 0 auto;
+  }
+}
