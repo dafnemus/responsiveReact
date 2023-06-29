@@ -2,16 +2,35 @@
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
   background-color: white;
 }
 
 body {
-  background-image: url(../imagenes/fondos/espacial.jpg);
+  background-image: url("../src/assets/backgroundImages/espacial.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 800px;
   color: #ecece7;
+}
+
+p{
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+h1{
+	padding-top: 5px;
+	text-align: center;
+	letter-spacing: 0.8em;
+}
+h2{
+	padding: 5px;
+	text-align: center;
+}
+h3{
+	text-align: center;
+	font-size: 0.8em;
 }
