@@ -1,5 +1,6 @@
-import Articles from "./sections/Articles";
 import Header from "./sections/Header";
+import Articles from "./sections/Articles";
+import Footer from "./sections/Footer";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <main id="content">
       <Header />
       <Articles />
+      <Footer />
     </main>
   );
 }

@@ -43,3 +43,5 @@ export const articleList = [
     ],
   },
 ];
+
+export const footerTexts = "&copy; Todos los derechos reservados";
